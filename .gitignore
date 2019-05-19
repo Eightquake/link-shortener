@@ -1,0 +1,14 @@
+## We don't need the uploads that might live in the uploads folder in the repo ##
+uploads/*
+
+## The assets folder includes my webpage and files used there. It is not needed for this repo ##
+assets/*
+
+## We also don't need all of the node-modules in my repo, we can just install these when needed using package.json ##
+node_modules/
+
+## I have no need for the logs to be in my repo ##
+log.txt
+
+## Of course I don't want to push some secrets to my repo, I keep them in these file instead. ##
+secret.json

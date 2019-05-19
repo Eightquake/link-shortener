@@ -1,0 +1,18 @@
+{
+  "source": {
+  "include": ["master.js", "hash.js", "file.js", "log.js", "README.md"],
+  "exclude": [],
+  "includePattern": ".+\\.js(doc|x)?$",
+  "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "templates": {
+  "cleverLinks": true,
+  "monospaceLinks": false
+  },
+  "opts": {
+  "encoding": "utf8",
+  "destination": "./docs/",
+  "access": "all",
+  "sort": false
+  }
+}
